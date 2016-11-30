@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C8AA3EC26918B0127429043 /* libPods-IDT-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 066A606AF1D07082FB42A44C /* libPods-IDT-Test.a */; };
 		A272A4941DED6EF700073E74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A272A4931DED6EF700073E74 /* main.m */; };
 		A272A4971DED6EF700073E74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A272A4961DED6EF700073E74 /* AppDelegate.m */; };
-		A272A49A1DED6EF700073E74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A272A4991DED6EF700073E74 /* ViewController.m */; };
-		A272A49D1DED6EF700073E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A272A49B1DED6EF700073E74 /* Main.storyboard */; };
 		A272A49F1DED6EF700073E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A272A49E1DED6EF700073E74 /* Assets.xcassets */; };
 		A272A4A21DED6EF700073E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A272A4A01DED6EF700073E74 /* LaunchScreen.storyboard */; };
 		A272A4AD1DED6EF700073E74 /* IDT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A272A4AC1DED6EF700073E74 /* IDT_TestTests.m */; };
 		A272A4B81DED6EF700073E74 /* IDT_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A272A4B71DED6EF700073E74 /* IDT_TestUITests.m */; };
+		A272A4CC1DED71BE00073E74 /* ReversedString.m in Sources */ = {isa = PBXBuildFile; fileRef = A272A4CB1DED71BE00073E74 /* ReversedString.m */; };
+		A272A4D31DED7FDD00073E74 /* Question_2 in Resources */ = {isa = PBXBuildFile; fileRef = A272A4D21DED7FDD00073E74 /* Question_2 */; };
+		A272A4D51DED800300073E74 /* Question_1 in Resources */ = {isa = PBXBuildFile; fileRef = A272A4D41DED800300073E74 /* Question_1 */; };
+		A272A4E11DED959100073E74 /* IDTWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A272A4E01DED959100073E74 /* IDTWeatherViewController.m */; };
+		A272A4E31DED95AE00073E74 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A272A4E21DED95AE00073E74 /* Weather.storyboard */; };
+		A272A4E61DED95CC00073E74 /* IDTWeatherDay.m in Sources */ = {isa = PBXBuildFile; fileRef = A272A4E51DED95CC00073E74 /* IDTWeatherDay.m */; };
+		A272A4EC1DED960300073E74 /* IDTWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = A272A4EB1DED960300073E74 /* IDTWeatherService.m */; };
+		A2AC9CA41DEDE94300EB0195 /* IDTLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AC9CA31DEDE94300EB0195 /* IDTLocationService.m */; };
+		A2AC9CA81DEEA64500EB0195 /* IDTWeatherViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AC9CA71DEEA64500EB0195 /* IDTWeatherViewModel.m */; };
+		A2AC9CAB1DEEAAE400EB0195 /* IDTWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AC9CAA1DEEAAE400EB0195 /* IDTWeatherView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		066A606AF1D07082FB42A44C /* libPods-IDT-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDT-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		071A1651257C70C114690779 /* Pods-IDT-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDT-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDT-Test/Pods-IDT-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		82BE170D999BDBF4A602A1E7 /* Pods-IDT-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDT-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDT-Test/Pods-IDT-Test.release.xcconfig"; sourceTree = "<group>"; };
 		A272A48F1DED6EF700073E74 /* IDT-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDT-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A272A4931DED6EF700073E74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A272A4951DED6EF700073E74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A272A4961DED6EF700073E74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A272A4981DED6EF700073E74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A272A4991DED6EF700073E74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A272A49C1DED6EF700073E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A272A49E1DED6EF700073E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A272A4A11DED6EF700073E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A272A4A31DED6EF700073E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,23 @@
 		A272A4B31DED6EF700073E74 /* IDT-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDT-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A272A4B71DED6EF700073E74 /* IDT_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDT_TestUITests.m; sourceTree = "<group>"; };
 		A272A4B91DED6EF700073E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A272A4CA1DED71BE00073E74 /* ReversedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReversedString.h; path = Question_1/ReversedString.h; sourceTree = "<group>"; };
+		A272A4CB1DED71BE00073E74 /* ReversedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReversedString.m; path = Question_1/ReversedString.m; sourceTree = "<group>"; };
+		A272A4D21DED7FDD00073E74 /* Question_2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Question_2; sourceTree = "<group>"; };
+		A272A4D41DED800300073E74 /* Question_1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Question_1; path = Question_1/Question_1; sourceTree = "<group>"; };
+		A272A4DF1DED959100073E74 /* IDTWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTWeatherViewController.h; sourceTree = "<group>"; };
+		A272A4E01DED959100073E74 /* IDTWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTWeatherViewController.m; sourceTree = "<group>"; };
+		A272A4E21DED95AE00073E74 /* Weather.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
+		A272A4E41DED95CC00073E74 /* IDTWeatherDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTWeatherDay.h; sourceTree = "<group>"; };
+		A272A4E51DED95CC00073E74 /* IDTWeatherDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTWeatherDay.m; sourceTree = "<group>"; };
+		A272A4EA1DED960300073E74 /* IDTWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTWeatherService.h; sourceTree = "<group>"; };
+		A272A4EB1DED960300073E74 /* IDTWeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTWeatherService.m; sourceTree = "<group>"; };
+		A2AC9CA21DEDE94300EB0195 /* IDTLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTLocationService.h; sourceTree = "<group>"; };
+		A2AC9CA31DEDE94300EB0195 /* IDTLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTLocationService.m; sourceTree = "<group>"; };
+		A2AC9CA61DEEA64500EB0195 /* IDTWeatherViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTWeatherViewModel.h; sourceTree = "<group>"; };
+		A2AC9CA71DEEA64500EB0195 /* IDTWeatherViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTWeatherViewModel.m; sourceTree = "<group>"; };
+		A2AC9CA91DEEAAE400EB0195 /* IDTWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTWeatherView.h; sourceTree = "<group>"; };
+		A2AC9CAA1DEEAAE400EB0195 /* IDTWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTWeatherView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8AA3EC26918B0127429043 /* libPods-IDT-Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14F0DA8B8A59275758DF77E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				071A1651257C70C114690779 /* Pods-IDT-Test.debug.xcconfig */,
+				82BE170D999BDBF4A602A1E7 /* Pods-IDT-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95E1D5438A50A872632FD37E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				066A606AF1D07082FB42A44C /* libPods-IDT-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A272A4861DED6EF700073E74 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				A272A4AB1DED6EF700073E74 /* IDT-TestTests */,
 				A272A4B61DED6EF700073E74 /* IDT-TestUITests */,
 				A272A4901DED6EF700073E74 /* Products */,
+				14F0DA8B8A59275758DF77E1 /* Pods */,
+				95E1D5438A50A872632FD37E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +147,14 @@
 		A272A4911DED6EF700073E74 /* IDT-Test */ = {
 			isa = PBXGroup;
 			children = (
+				A272A4C51DED701300073E74 /* Questions&Answers */,
 				A272A4951DED6EF700073E74 /* AppDelegate.h */,
 				A272A4961DED6EF700073E74 /* AppDelegate.m */,
-				A272A4981DED6EF700073E74 /* ViewController.h */,
-				A272A4991DED6EF700073E74 /* ViewController.m */,
-				A272A49B1DED6EF700073E74 /* Main.storyboard */,
+				A2AC9CA51DEEA62600EB0195 /* ViewModel */,
+				A272A4D91DED94A400073E74 /* Service Layer */,
+				A272A4D81DED949B00073E74 /* Controllers */,
+				A272A4D71DED948F00073E74 /* Views */,
+				A272A4D61DED948700073E74 /* Model */,
 				A272A49E1DED6EF700073E74 /* Assets.xcassets */,
 				A272A4A01DED6EF700073E74 /* LaunchScreen.storyboard */,
 				A272A4A31DED6EF700073E74 /* Info.plist */,
@@ -140,6 +189,81 @@
 			path = "IDT-TestUITests";
 			sourceTree = "<group>";
 		};
+		A272A4C51DED701300073E74 /* Questions&Answers */ = {
+			isa = PBXGroup;
+			children = (
+				A272A4CF1DED7F8600073E74 /* Question_2 */,
+				A272A4C91DED719900073E74 /* Question_1 */,
+			);
+			path = "Questions&Answers";
+			sourceTree = "<group>";
+		};
+		A272A4C91DED719900073E74 /* Question_1 */ = {
+			isa = PBXGroup;
+			children = (
+				A272A4D41DED800300073E74 /* Question_1 */,
+				A272A4CA1DED71BE00073E74 /* ReversedString.h */,
+				A272A4CB1DED71BE00073E74 /* ReversedString.m */,
+			);
+			name = Question_1;
+			sourceTree = "<group>";
+		};
+		A272A4CF1DED7F8600073E74 /* Question_2 */ = {
+			isa = PBXGroup;
+			children = (
+				A272A4D21DED7FDD00073E74 /* Question_2 */,
+			);
+			path = Question_2;
+			sourceTree = "<group>";
+		};
+		A272A4D61DED948700073E74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A272A4E41DED95CC00073E74 /* IDTWeatherDay.h */,
+				A272A4E51DED95CC00073E74 /* IDTWeatherDay.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A272A4D71DED948F00073E74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A272A4E21DED95AE00073E74 /* Weather.storyboard */,
+				A2AC9CA91DEEAAE400EB0195 /* IDTWeatherView.h */,
+				A2AC9CAA1DEEAAE400EB0195 /* IDTWeatherView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A272A4D81DED949B00073E74 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A272A4DF1DED959100073E74 /* IDTWeatherViewController.h */,
+				A272A4E01DED959100073E74 /* IDTWeatherViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A272A4D91DED94A400073E74 /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A272A4EA1DED960300073E74 /* IDTWeatherService.h */,
+				A272A4EB1DED960300073E74 /* IDTWeatherService.m */,
+				A2AC9CA21DEDE94300EB0195 /* IDTLocationService.h */,
+				A2AC9CA31DEDE94300EB0195 /* IDTLocationService.m */,
+			);
+			path = "Service Layer";
+			sourceTree = "<group>";
+		};
+		A2AC9CA51DEEA62600EB0195 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A2AC9CA61DEEA64500EB0195 /* IDTWeatherViewModel.h */,
+				A2AC9CA71DEEA64500EB0195 /* IDTWeatherViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A272A4BC1DED6EF700073E74 /* Build configuration list for PBXNativeTarget "IDT-Test" */;
 			buildPhases = (
+				2306AA2AA894E372DF740728 /* [CP] Check Pods Manifest.lock */,
 				A272A48B1DED6EF700073E74 /* Sources */,
 				A272A48C1DED6EF700073E74 /* Frameworks */,
 				A272A48D1DED6EF700073E74 /* Resources */,
+				1AD7DDD5097055D1EA371CD1 /* [CP] Embed Pods Frameworks */,
+				DDA8FFB42661A03DB6C615F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +329,7 @@
 		A272A4871DED6EF700073E74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IDT;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Mohamed EL Meseery";
 				TargetAttributes = {
@@ -250,8 +378,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A272A4A21DED6EF700073E74 /* LaunchScreen.storyboard in Resources */,
+				A272A4E31DED95AE00073E74 /* Weather.storyboard in Resources */,
+				A272A4D31DED7FDD00073E74 /* Question_2 in Resources */,
+				A272A4D51DED800300073E74 /* Question_1 in Resources */,
 				A272A49F1DED6EF700073E74 /* Assets.xcassets in Resources */,
-				A272A49D1DED6EF700073E74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,13 +401,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AD7DDD5097055D1EA371CD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDT-Test/Pods-IDT-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2306AA2AA894E372DF740728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA8FFB42661A03DB6C615F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDT-Test/Pods-IDT-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A272A48B1DED6EF700073E74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A272A49A1DED6EF700073E74 /* ViewController.m in Sources */,
+				A272A4E61DED95CC00073E74 /* IDTWeatherDay.m in Sources */,
+				A2AC9CAB1DEEAAE400EB0195 /* IDTWeatherView.m in Sources */,
+				A272A4EC1DED960300073E74 /* IDTWeatherService.m in Sources */,
+				A2AC9CA41DEDE94300EB0195 /* IDTLocationService.m in Sources */,
 				A272A4971DED6EF700073E74 /* AppDelegate.m in Sources */,
+				A272A4E11DED959100073E74 /* IDTWeatherViewController.m in Sources */,
+				A2AC9CA81DEEA64500EB0195 /* IDTWeatherViewModel.m in Sources */,
+				A272A4CC1DED71BE00073E74 /* ReversedString.m in Sources */,
 				A272A4941DED6EF700073E74 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +498,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A272A49B1DED6EF700073E74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A272A49C1DED6EF700073E74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A272A4A01DED6EF700073E74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,10 +601,12 @@
 		};
 		A272A4BD1DED6EF700073E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071A1651257C70C114690779 /* Pods-IDT-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36C5PY3HAP;
 				INFOPLIST_FILE = "IDT-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "meseery.IDT-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +615,12 @@
 		};
 		A272A4BE1DED6EF700073E74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BE170D999BDBF4A602A1E7 /* Pods-IDT-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36C5PY3HAP;
 				INFOPLIST_FILE = "IDT-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "meseery.IDT-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +696,7 @@
 				A272A4BE1DED6EF700073E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A272A4BF1DED6EF700073E74 /* Build configuration list for PBXNativeTarget "IDT-TestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +705,7 @@
 				A272A4C11DED6EF700073E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A272A4C21DED6EF700073E74 /* Build configuration list for PBXNativeTarget "IDT-TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +714,7 @@
 				A272A4C41DED6EF700073E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

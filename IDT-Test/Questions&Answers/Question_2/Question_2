@@ -1,0 +1,10 @@
+Q: Explain what happens when the following code is executed (ARC being disabled in the compiler):
+
+MyClass *myClass = [[[[MyClass alloc] init] autorelease] autorelease];
+
+
+Answer:
+
+First, we have an object with retain count of 1, sending autorelease twice will release the object twice. With autorelease method first call, we have an autoreleased object which will be at the end of the run loop iteration, then we send another autorelease message to it, the app will crash, because we'll be releasing a deallocated object.
+
+For some cases, like NSString objects the App may not crash, the reason here is NSSstring returns Singletons for some instances, like Literals or empty strings so theses objects won't be deallocated beforehand.

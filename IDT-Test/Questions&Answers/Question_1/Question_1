@@ -1,0 +1,5 @@
+Q: Write a function which takes a string as argument and returns the string reversed. For example, "abcdef" becomes "fedcba". Do not use the reverse method. Does it work with emojis?
+
+Answer:
+Refer to ReversedString.h/.m files.
+Yes, it works with emojis as well.
