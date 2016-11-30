@@ -13,18 +13,12 @@
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
              @"date": @"dt",
-             @"locationName": @"name",
              @"pressure":@"main.pressure",
              @"humidity": @"main.humidity",
              @"temperature": @"main.temp",
-             @"tempHigh": @"main.temp_max",
-             @"tempLow": @"main.temp_min",
-             @"sunrise": @"sys.sunrise",
-             @"sunset": @"sys.sunset",
              @"windBearing": @"wind.deg",
              @"windSpeed": @"wind.speed",
              @"conditionDescription": @"weather",
-             @"condition": @"weather",
              @"icon": @"weather"
              };
 }

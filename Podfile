@@ -5,6 +5,6 @@ target 'IDT-Test' do
 
 pod 'AFNetworking'
 pod 'Mantle'
-pod 'LBBlurredImage'
+
 
 end
